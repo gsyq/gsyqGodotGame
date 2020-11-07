@@ -1,0 +1,8 @@
+G:\game_project\myTest\mesh_auto\.mono\temp\obj\Debug\Mesh Auto.csprojAssemblyReference.cache
+G:\game_project\myTest\mesh_auto\.mono\temp\obj\Debug\Mesh Auto.AssemblyInfoInputs.cache
+G:\game_project\myTest\mesh_auto\.mono\temp\obj\Debug\Mesh Auto.AssemblyInfo.cs
+G:\game_project\myTest\mesh_auto\.mono\temp\obj\Debug\Mesh Auto.csproj.CoreCompileInputs.cache
+G:\game_project\myTest\mesh_auto\.mono\temp\bin\Debug\Mesh Auto.dll
+G:\game_project\myTest\mesh_auto\.mono\temp\bin\Debug\Mesh Auto.pdb
+G:\game_project\myTest\mesh_auto\.mono\temp\obj\Debug\Mesh Auto.dll
+G:\game_project\myTest\mesh_auto\.mono\temp\obj\Debug\Mesh Auto.pdb

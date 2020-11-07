@@ -1,0 +1,76 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://Script/one.gd" type="Script" id=1]
+[ext_resource path="res://Script/two.gd" type="Script" id=2]
+[ext_resource path="res://icon.png" type="Texture" id=3]
+[ext_resource path="res://Resource/light.png" type="Texture" id=4]
+[ext_resource path="res://Resource/godot_normal.png" type="Texture" id=5]
+[ext_resource path="res://Script/light.gd" type="Script" id=6]
+[ext_resource path="res://Resource/background.png" type="Texture" id=7]
+[ext_resource path="res://Script/two_nor.gd" type="Script" id=8]
+[ext_resource path="res://Resource/godot.png" type="Texture" id=9]
+[ext_resource path="res://Resource/spot.png" type="Texture" id=10]
+[ext_resource path="res://Script/qiqiaoban.gd" type="Script" id=11]
+[ext_resource path="res://Script/tree.gd" type="Script" id=12]
+[ext_resource path="res://Script/love_star.gd" type="Script" id=13]
+
+[node name="main" type="Node2D"]
+
+[node name="bc" type="Sprite" parent="."]
+modulate = Color( 0.352941, 0.352941, 0.352941, 1 )
+position = Vector2( 600, 400 )
+scale = Vector2( 16, 10 )
+texture = ExtResource( 7 )
+
+[node name="light" type="Light2D" parent="."]
+position = Vector2( 600, 400 )
+texture = ExtResource( 4 )
+offset = Vector2( 35, 20 )
+texture_scale = 2.0
+energy = 2.0
+script = ExtResource( 6 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="blob" type="Sprite" parent="light"]
+texture = ExtResource( 10 )
+
+[node name="triangles_mode" type="Node2D" parent="."]
+
+[node name="one" type="MeshInstance2D" parent="triangles_mode"]
+position = Vector2( 100, 100 )
+script = ExtResource( 1 )
+size = 100
+
+[node name="two" type="MeshInstance2D" parent="triangles_mode"]
+position = Vector2( 300, 100 )
+texture = ExtResource( 3 )
+script = ExtResource( 2 )
+size = 100
+
+[node name="two_nor" type="MeshInstance2D" parent="triangles_mode"]
+position = Vector2( 500, 100 )
+texture = ExtResource( 9 )
+normal_map = ExtResource( 5 )
+script = ExtResource( 8 )
+size = 100
+
+[node name="qiqiaoban" type="MeshInstance2D" parent="triangles_mode"]
+position = Vector2( 1000, 400 )
+script = ExtResource( 11 )
+size = 100
+
+[node name="triangle_strip_mode " type="Node2D" parent="."]
+
+[node name="tree" type="MeshInstance2D" parent="triangle_strip_mode "]
+position = Vector2( 200, 600 )
+script = ExtResource( 12 )
+size = 50
+
+[node name="triangle_fan_mode " type="Node2D" parent="."]
+
+[node name="love_star" type="MeshInstance2D" parent="triangle_fan_mode "]
+position = Vector2( 600, 600 )
+script = ExtResource( 13 )
+size = 50

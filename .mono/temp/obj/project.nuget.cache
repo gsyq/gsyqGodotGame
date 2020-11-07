@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZMAj1pDM1bTwWjd8GOl1s6gemtcMn5SvN9OQm07Xik/y3UvK7rmLpAds9yGJrjlM46Cq7Pgg5TVydOXdDGePlQ==",
+  "success": true,
+  "projectFilePath": "G:\\game_project\\myTest\\mesh_auto\\Mesh Auto.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.0\\microsoft.netframework.referenceassemblies.net472.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
